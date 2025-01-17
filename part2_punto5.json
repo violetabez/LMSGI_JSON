@@ -1,0 +1,101 @@
+{
+    "pokemons":[
+        {
+            "id": "0070",
+            "nom": "Weepinbell",
+            "tipus": ["planta", "veneno"],
+            "pes": {
+                "valor":6.4,
+                "unidad":"kg",
+            }, 
+            "altura": {
+                "valor":1,
+                "unidad":"m",
+            },
+            
+            "estadistiques": {
+                "velocitat": 2,
+                "fortalesa": 3,
+                "precisio": 2,
+                "resistencia": 4
+            },
+            "moviments": [
+                {
+                    "nom": "brinco",
+                    "descripcio": "Brinco causa daño y siempre reduce en un nivel la velocidad del objetivo.",
+                    "potencia": 50,
+                    "contacte": true
+                },
+                {
+                    "nom": "chupavidas",
+                    "descripcio": "Chupavidas causa daño y el usuario recupera el 50% de los PS quitados por el movimiento al objetivo.",
+                    "potencia": 80,
+                    "contacte": true
+                },
+                {
+                    "nom": "día soleado",
+                    "descripcio": "Día soleado es un movimiento de cambio de tiempo atmosférico que consiste en crear el tiempo soleado durante 5 turnos.",
+                    "potencia": null,
+                    "contacte": false
+                }
+
+
+            ],
+            "imatge": "https://www.wikidex.net/wiki/Archivo:Weepinbell.png",
+            "evolucions": [
+                {
+                    "nom": "Victreebel",
+                    "id": "0071",
+                    "nivel": "piedra hoja"
+                }
+            ]
+
+        },
+
+        {
+            "id": "0037",
+            "nom": "Vulpix",
+            "tipus": ["fuego"],
+            "pes": "9,9 kg",
+            "altura": "0,9 m",
+            "estadistiques": {
+                "velocitat": 5,
+                "fortalesa": 3,
+                "precisio": 4,
+                "resistencia": 3
+            },
+            "moviments": [
+                {
+                    "nom": "lanzallamas",
+                    "descripcio": "Lanzallamas causa daño y tiene una probabilidad del 10% de quemar al objetivo.",
+                    "potencia": 90,
+                    "contacte": false
+                },
+                {
+                    "nom": "calcinación",
+                    "descripcio": "Calcinación causa daño y quema la baya equipada con el objetivo, haciendo que la pierda.",
+                    "potencia": 60,
+                    "contacte": false
+                },
+                {
+                    "nom": "rencor",
+                    "descripcio": "Rencor es ahora reflejado por capa mágica y por la habilidad espejo mágico.",
+                    "potencia": null,
+                    "contacte": false
+                }
+
+
+            ],
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/8d/latest/20230613015324/Vulpix.png/200px-Vulpix.png",
+            "evolucions": [
+                {
+                    "nom": "Ninetales",
+                    "id": "0038",
+                    "nivel": "piedra fuego"
+                }
+            ]
+
+        }
+
+    ]
+}
