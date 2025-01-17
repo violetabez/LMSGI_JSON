@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <clientes> 
-    <cliente id="001"> 
+    <cliente> 
         <basic_info>
             <name>Peter</name>
             <surname>Jones</surname>
@@ -34,7 +34,6 @@
             <friend>
                 <name>Anna</name>
                 <surname>Smith</surname>
-                <age></age>
             </friend>
         <friends>
     </cliente>
