@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merceria>
+    <producto id="AC050"> <!-- Codi únic del producte -->
+        <cat>Crochet</cat>
+        <nombre>Aguja de crochet 5.0</nombre>
+        <precio divisa="€">7.95</precio>
+        <descripcion>Realizadas en alumnio con punta de níquel de colores metálicos y grabadas a láser. Ofrecen una superficie lisa y pulida para trabajar todo tipo de fibras y son suaves y ligeras al tacto. </descripcion>
+        <disponibilidad>en stock</disponibilidad> <!-- en estoc o esgotat -->
+        <imagen>https://www.komolakrafts.com/wp-content/uploads/2021/09/30911.jpg</imagen> <!-- URL de la imagen -->
+        <especificaciones> <!-- especificaciones de cada producto -->
+            <medida>5 mm</medida>
+        </especificaciones>   
+    </producto>
+    <producto id="LC850"> <!-- Codi únic del producte -->
+        <cat>Crochet</cat>
+        <nombre>Lana socks neon</nombre>
+        <precio divisa="€">8.95</precio>
+        <descripcion>Es una mezcla resistente compuesta por  lana virgen y poliamida, apta para lavadora y plancha, lo que te ofrece la posibilidad de un uso diario para mantener tus pies calientes y protegidos. </descripcion>
+        <disponibilidad>agotada</disponibilidad> <!-- en estoc o esgotat -->
+        <imagen>https://www.thelanabox.com/wp-content/uploads/2024/10/Rico-Design-Socks-Neon-portada.jpg</imagen> <!-- URL de la imagen -->
+        <especificaciones> <!-- especificaciones de cada producto -->
+            <composicion> 75% lana virgen 25% poliamida </composicion>
+            <aguja>2-3mm</aguja>
+            <lavado> Se puede lavar en lavadora máx 40º y planchar. No es apta para secadora. </lavado>
+        </especificaciones>
+    </producto>
+    <producto id="HB060"> <!-- Codi únic del producte -->
+        <cat>Bordado</cat>
+        <nombre>Hilo de bordar DCM</nombre>
+        <precio divisa="€">1.90</precio>
+        <descripcion>Este tono en concreto es ideal para proyectos Navideños!</descripcion>
+        <disponibilidad>agotada</disponibilidad> <!-- en estoc o esgotat -->
+        <imagen>https://elmussolmerceria.com/wp-content/uploads/2024/08/IMG_8964resize.jpg</imagen> <!-- URL de la imagen -->
+        <especificaciones> <!-- especificaciones de cada producto -->
+            <medida>8m</medida>
+            <lavado> Los tintes resistentes al color garantizan que tu trabajo pueda lavarse sin temor a que el color destiña o se desvanezca. </lavado>
+        </especificaciones>
+    </producto>
+</merceria>
+
